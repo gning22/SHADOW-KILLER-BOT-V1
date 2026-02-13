@@ -1,0 +1,12 @@
+{
+  "name": "shadow killer-md-bot",
+  "version": "2.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.5.0",
+    "pino": "^8.0.0",
+    "axios": "^1.6.0",
+    "fs-extra": "^11.0.0"
+  }
+}
