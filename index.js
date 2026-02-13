@@ -19,7 +19,7 @@ async function startBot() {
     if (!sock.authState.creds.registered) {
         const SHADOW = "221763175367"; // Garde uniquement SHADOW
 
-        const code = await sock.requestPairingCode(SHADOW)
+        const code = await sock.requestPairingCode(SHADOWMD)
 
         console.log("\n🔥 TON CODE DE PAIRING 🔥\n")
         console.log(code)
