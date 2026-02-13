@@ -17,7 +17,8 @@ async function startBot() {
 
     // 🔥 Générer le code pairing si le bot n'est pas connecté
     if (!sock.authState.creds.registered) {
-        const SHADOW phoneNumber = "221763175367" // Remplace par ton numéro complet
+        const SHADOW = "221763175367"; // Garde uniquement SHADOW
+
         const code = await sock.requestPairingCode(SHADOW)
 
         console.log("\n🔥 TON CODE DE PAIRING 🔥\n")
